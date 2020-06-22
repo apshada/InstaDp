@@ -32,8 +32,8 @@ class InputData extends React.Component{
       componentDidMount(){
         console.log('I amd Here')
         const opt = Admob.setOptions({
-          publisherId : "ca-app-pub-3940256099942544/6300978111",
-          tappxIdAndroid : "pub-54563-android-7684"
+          publisherId : "xxxxx",
+          tappxIdAndroid : "xxxxx"
         })
         Admob.createBannerView(opt)
         
